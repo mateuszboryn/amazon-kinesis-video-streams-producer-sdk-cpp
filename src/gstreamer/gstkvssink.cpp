@@ -758,7 +758,7 @@ gst_kvs_sink_init(GstKvsSink *kvssink) {
     GST_OBJECT_FLAG_SET (kvssink, GST_ELEMENT_FLAG_SINK);
 
     LOGGER_TAG("com.amazonaws.kinesis.video.gstkvs");
-    LOG_CONFIGURE_STDOUT("DEBUG");
+    LOG_CONFIGURE_STDOUT("WARN");
 }
 
 static void
